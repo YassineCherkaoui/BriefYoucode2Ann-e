@@ -1,0 +1,158 @@
+.YASSINE {
+  height: 100vh;
+  min-height: 40em;
+  background-image: url("../../images/h1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.blink{
+    margin-top: 3%;
+}
+.prix{
+    color: red;
+}
+.d-block {
+  width: 50%;
+  height: 423px;
+  margin-left: 25%;
+}
+.carousel-control-prev {
+  left: 19%;
+}
+.carousel-control-next{
+  right: 19%;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+background-color: black;
+  background-size: cover;
+  
+}
+
+.second {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: rgb(206,206,206);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.second2 {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: rgb(206,206,206);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.second h4 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  color: #fff;
+  padding-bottom: 0.5em;
+}
+
+  .second h4::after {
+      content: '';
+      background: #66c83d;
+      width: 20%;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      left: 40%;
+  }
+
+
+.second li {
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+.second a, .second2 a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+  .second a:hover, .second2 a:hover {
+      color: #fff;
+      transition: 0.2s;
+      text-shadow: 1px 1px 20px rgba(0,0,0,1);
+      text-decoration: none
+
+  }
+
+.margin {
+  margin-left: 20px;
+}
+
+.line {
+  height:2px;
+  background-color:rgb(206,206,206);
+  width:100%;
+}
+
+.container h1{
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+
+
+.contact{
+  padding: 4%;
+  height: 400px;
+  }
+  .col-md-3{
+  background: #ff9b00;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  }
+  .contact-info{
+  margin-top:10%;
+  }
+  .contact-info img{
+  margin-bottom: 15%;
+  }
+  .contact-info h2{
+  margin-bottom: 10%;
+  }
+  .col-md-9{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  }
+  .contact-form label{
+  font-weight:600;
+  }
+  .contact-form button{
+  background: #25274d;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+  }
+  .contact-form button:focus{
+  box-shadow:none;
+  } 
+.disc{
+  font-variant-caps: unicase;
+}
