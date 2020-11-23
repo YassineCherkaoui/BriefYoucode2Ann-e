@@ -21,10 +21,10 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) && 
 	$mail->Port=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="cyassin95@gmail.com";
-	$mail->Password="Cherkaoui";
-	$mail->SetFrom("cyassin95@gmail.com");
-	$mail->addAddress("cyassin95@gmail.com");
+	$mail->Username="";//email here
+	$mail->Password="";//Password here
+	$mail->SetFrom("");//email here
+	$mail->addAddress("");//email here
 	$mail->IsHTML(true);
 	$mail->Subject="NEW ORDER";
 	$mail->Body=$html;
