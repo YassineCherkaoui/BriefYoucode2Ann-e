@@ -1,15 +1,12 @@
 <?php 
+//conection database
     require_once('../Controller/connection.php'); 
-
 ?>
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../public/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../public/css/dist/style.css">
@@ -18,18 +15,9 @@
       <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
       <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-
-
     <title>Restaurant</title>
   </head>
   <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
-      <a href="#" class="navbar-brand">RESTAUBELDI</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </nav>
     <!-- Header -->
     <header class="YASSINE">
       <div class="container-fluid h-100">
@@ -49,6 +37,7 @@
 <div class="blink"></div>
 
 
+<!-- affichage de plat par jour -->
 <?php
   //la requette 
   $result = $con->query(
@@ -62,14 +51,6 @@
       echo"</blockquote>";
     }
     ?>
-
-
-
-  
-
-
-
-
 <h1 class="font-weight-light text-center">Everything <span class=" display-1 font-weight-bold prix">20MAD</span></h1>
 <h1 class="font-weight-light text-center">Make Your Commande Here</h1>
 
@@ -80,7 +61,7 @@
 					<div class="contact-form">
             <div class="form-group">
             
-
+<!-- send name plate to admin -->
             <?php
   //la requette 
   $result = $con->query(

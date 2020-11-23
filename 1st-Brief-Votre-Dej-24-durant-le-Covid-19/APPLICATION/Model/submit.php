@@ -9,8 +9,8 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) && 
 	$p_name=mysqli_real_escape_string($con,$_POST['p_name']);
 	
 	
-	mysqli_query($con,"insert into buyer(name,email,phone,addrss,p_name) values('$name','$email','$phone','$addrss','$p_name')");
-	$msg="L commande dazt beseh uraha";
+	mysqli_query($con,"INSERT into buyer(name,email,phone,addrss,p_name) values('$name','$email','$phone','$addrss','$p_name')");
+	$msg="(Beseh Uraha)";
 	
 	$html="<table><tr><td>Name</td><td>$name</td></tr><tr><td>Email</td><td>$email</td></tr><tr><td>Phone</td><td>$phone</td></tr><tr><td>addrss</td><td>$addrss</td></tr><tr><td>Name of plat</td><td>$p_name</td></tr></table>";
 	
@@ -21,12 +21,12 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) && 
 	$mail->Port=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="";//email here
-	$mail->Password="";//Password here
-	$mail->SetFrom("");//email here
-	$mail->addAddress("");//email here
+	$mail->Username="cyassin95@gmail.com";
+	$mail->Password="Cherkaoui";
+	$mail->SetFrom("cyassin95@gmail.com");
+	$mail->addAddress("cyassin95@gmail.com");
 	$mail->IsHTML(true);
-	$mail->Subject="";//Subject
+	$mail->Subject="NEW ORDER";
 	$mail->Body=$html;
 	$mail->SMTPOptions=array('ssl'=>array(
 		'verify_peer'=>false,
@@ -34,9 +34,9 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) && 
 		'allow_self_signed'=>false
 	));
 	if($mail->send()){
-		//echo "Mail send";
+		echo "Mail send";
 	}else{
-		//echo "Error occur";
+		echo "3endek chi mochkil(Try again)";
 	}
 	echo $msg;
 }
