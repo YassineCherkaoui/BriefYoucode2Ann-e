@@ -1,0 +1,12 @@
+Ecrire un programme java console qui permet de faire la gestion d'une Bibliothèque de l'ecole.
+	- L'adminisrateur peut (ajouter/modifier/supprimer) un étudiant.
+	- L'adminisrateur peut (ajouter/modifier/supprimer) un employée.
+	- L'adminisrateur peut (ajouter/modifier/supprimer) un livre.
+
+
+Recherche :
+	-POO
+	-héritage
+	-encapsulation
+
+
