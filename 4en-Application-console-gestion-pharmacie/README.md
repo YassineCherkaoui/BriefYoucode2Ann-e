@@ -1,6 +1,6 @@
 ## 4en Application console : Gestion Pharmacie
 
-![Alt text](context/img.jpg?raw=true "Title")
+![Alt text](https://www.pixisoft.com/wp-content/uploads/2018/08/shutterstock_244047301-1.jpg?raw=true "Title")
 
 Une nouvelle pharmacie est ouvert dans votre quartier, vous êtes là pour donner l'aide.
 
