@@ -26,7 +26,7 @@ public class Producteur extends Employe{
 	      }
 	 public String getTitle()
 	      {
-	          return "Le Producteur ";
+	          return "The producer ";
 	      }
 
 }

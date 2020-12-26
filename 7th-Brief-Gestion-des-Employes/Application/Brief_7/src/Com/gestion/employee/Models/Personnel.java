@@ -11,7 +11,7 @@ public class Personnel {
 	public String addEmploye(Employe e) {
 		try {
 			listEmployes.add(e);
-			return "Employe Added Successfully";
+			return "Employee Added Successfully";
 			
 		}catch(Exception ex) {
 			return ex.getMessage();
@@ -21,7 +21,7 @@ public class Personnel {
 		}
 	  public void afficherSalaires() {
 	        for (int i = 0; i < listEmployes.size(); i++) {
-	            System.out.println( " Salaire de : " + listEmployes.get(i).getName() + listEmployes.get(i).calculerSalaire() + " DH ");
+	            System.out.println( " Salary of : " + listEmployes.get(i).getName() + listEmployes.get(i).calculerSalaire() + " DH ");
 	        }
 	    }
 	

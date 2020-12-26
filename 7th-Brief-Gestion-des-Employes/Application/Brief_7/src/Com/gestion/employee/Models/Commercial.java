@@ -16,7 +16,6 @@ public abstract class Commercial extends Employe{
 	public Commercial(String lastName, String firstName, int age, String dateEntreeService,double chiffreAffaire) {
 		super(lastName, firstName, age, dateEntreeService);
 		this.chiffreAffaire=chiffreAffaire;
-		// TODO Auto-generated constructor stub
 	}
 	public Commercial() {
 		

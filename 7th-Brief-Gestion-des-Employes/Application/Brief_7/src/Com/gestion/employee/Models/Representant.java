@@ -17,7 +17,7 @@ public class Representant extends Commercial{
 
 	  public String getTitle()
       {
-          return "Le representant";
+          return "The representative ";
       }
 	
 	 

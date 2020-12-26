@@ -18,6 +18,6 @@ public class Vendeur extends Commercial{
 
 	  public String getTitle()
       {
-          return "Le Vendeur ";
+          return "The Seller ";
       }
 }

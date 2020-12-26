@@ -1,6 +1,7 @@
 package Com.gestion.employee.Models;
+import Com.gestion.employee.interfaces.*;
 
-public class ProducteurArisque extends Producteur implements Arisque{
+public class ProducteurArisque extends Producteur implements employes_a_risque{
 
 	public ProducteurArisque(String lastName, String firstName, int age, String dateEntreeService, int nbrUnites) {
 		super(lastName, firstName, age, dateEntreeService, nbrUnites);
@@ -15,6 +16,6 @@ public class ProducteurArisque extends Producteur implements Arisque{
 	      }
 		 public String getTitle()
 	      {
-	          return "Le Producteur ARisque ";
+	          return "The Producer At Risk ";
 	      } 
 }
