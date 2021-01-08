@@ -27,7 +27,7 @@ Durée: 3 jours
 
 # Screenshot
 
-![](https://github.com/YassineCherkaoui/8th-Brief-Application-Desktop-Gestion-Employe/blob/main/Screenshot/Screenshoot.png)
+![screen](https://github.com/YassineCherkaoui/BriefYoucode2Annee/blob/master/8th-Brief-Application-Desktop-Gestion-Employe/Screenshot/Screenshoot.PNG)
 
 ## HOW TO RUN !!
 
