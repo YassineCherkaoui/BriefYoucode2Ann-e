@@ -230,14 +230,14 @@ Project Link: [https://github.com/YassineCherkaoui/APPLICATION-DESKTOP-DE-PERMIS
 
 <!-- SCREENSHOOT -->
 
-[Admin_Login]: images/Admin_Login.png
+[Admin_Login]: images/Admin_Login.PNG
 
-[Admin]: images/Admin-dash.png
+[Admin]: images/Admin-dash.PNG
 
-[Conductor]: images/Conductor-homePage.png
+[Conductor]: images/Conductor-homePage.PNG
 
-[Conductor-Register]: images/Conductor-Register.png
+[Conductor-Register]: images/Conductor-Register.PNG
 
-[conductorCheck]: images/conductorCheck.png
+[conductorCheck]: images/conductorCheck.PNG
 
-[HomePage]: images/HomePage.png
+[HomePage]: images/HomePage.PNG
